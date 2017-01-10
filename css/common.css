@@ -1,0 +1,23 @@
+.top-buffer-sma { margin-top:22px; }
+.top-buffer-med { margin-top:33px; }
+.top-buffer-big { margin-top:50px; }
+
+.img-responsive { margin: 0 auto; }
+
+.btn {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    background-image: none;
+    border: 0 none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    border: 0 none;
+}
