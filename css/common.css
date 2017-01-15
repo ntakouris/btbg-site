@@ -4,9 +4,17 @@
 
 .img-responsive { margin: 0 auto; }
 
+.blue-text {
+    color: #3D9BE9;
+}
+
+.contact-form {
+    margin-top: 50px;
+}
+
 .btn {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
@@ -15,9 +23,31 @@
     outline: none;
     background-image: none;
     border: 0 none;
+    padding: 0;
+    margin: 2px;
 }
 
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btn:focus, 
+.btn:active:focus,
+.btn.active:focus,
+ {
     outline: 0 none;
     border: 0 none;
+}
+
+/* Background image */
+.wrapper{
+    background: url('/img/background.jpg') no-repeat   center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Flex container */
+.container {
+  border: 0 none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
